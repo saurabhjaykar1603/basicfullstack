@@ -5,8 +5,8 @@ app.get("/health", (req, res) => {
   res.send("all Good");
 });
 
-app.get("/jokes", (req, res) => {
-  const jokes = [
+app.get("/api/jokes", (req, res) => {
+  const jokes = [ 
     { id: 1, title: "A jokes", content: " why dont scientists trust on atom" },
     {
       id: 2,
